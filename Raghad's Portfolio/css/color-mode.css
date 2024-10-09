@@ -1,0 +1,30 @@
+:root.dark-mode {
+  /* Colors */
+  --bg: #202124; /* Background color */
+  --bg-alt: #3c3d40; /* Alternative background */
+  --bg-alt-2: #333; /* Another alternative background */
+  --bg-transparent: #333333f5; /* Transparent background */
+  --border: 0.01rem solid #5a5a5a; /* Border color */
+  --text: #fff; /* Text color */
+
+/* COLOR MODE TOGGLE BUTTON */
+
+#color-mode {
+  background: var(--bg-alt-2);
+  height: 2.75rem;
+  width: 4rem;
+  border-radius: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#toggle-button {
+  background-image: var(--moon);
+  background-size: cover;
+  cursor: pointer;
+}
